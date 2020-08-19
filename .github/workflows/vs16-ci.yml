@@ -20,6 +20,6 @@ jobs:
         buildWithCMakeArgs: --config Release  
         
     - name: 'Run CTest'
-      run: Get-ChildItem -Recurse
+      run: Release\repro.exe
       working-directory: "${{ github.workspace }}/../../_temp/windows"
   
