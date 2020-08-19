@@ -20,6 +20,27 @@ cmake --build build --config Release
 ./build/release/repro.exe
 ```
 
+## Getting CMake
+
+
+1. On macOS, the easiest way to install cmake might be to use [brew](https://brew.sh) and then type
+```
+brew install cmake
+```
+2. Under Linux, you might be able to install CMake as follows:
+```
+apt-get update -qq
+apt-get install -y cmake
+```
+3. On FreeBSD, you might be able to install bash and CMake as follows:
+```
+pkg update -f
+pkg install bash
+pkg install cmake
+```
+
+4. Under Windows, you may want to install [CMake](https://cmake.org/download/) using an installer.
+
 
 ## Using submodules
 
