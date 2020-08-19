@@ -25,7 +25,7 @@ The instructions with Visual Studio (Windows) are similar:
 ```
 cmake -B build .
 cmake --build build --config Release
-./build/release/repro.exe
+./build/Release/repro.exe
 ```
 
 ## Getting CMake
