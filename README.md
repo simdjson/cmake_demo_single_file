@@ -19,3 +19,8 @@ cmake -B build .
 cmake --build build --config Release
 ./build/release/repro.exe
 ```
+
+
+## Using submodules
+
+[You can also use simdjson as a submodule-based dependency.](https://github.com/simdjson/cmakedemo)
