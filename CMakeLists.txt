@@ -20,9 +20,6 @@ FetchContent_Declare(
   GIT_REPOSITORY https://github.com/simdjson/simdjson.git
   GIT_SHALLOW TRUE)
 
-set(SIMDJSON_JUST_LIBRARY ON CACHE INTERNAL "")
-set(SIMDJSON_BUILD_STATIC ON CACHE INTERNAL "")
-
 FetchContent_MakeAvailable(simdjson)
 
 
