@@ -21,7 +21,7 @@ FetchContent_Declare(
   simdjson
   GIT_REPOSITORY https://github.com/simdjson/simdjson.git
   GIT_SHALLOW TRUE
-  GIT_TAG e9b893ff1b13c6a70135827c62b3f3d65938d135 # version 0.9.6
+  GIT_TAG tags/v0.9.6
   )
 
 FetchContent_MakeAvailable(simdjson)
