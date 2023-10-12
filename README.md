@@ -1,10 +1,4 @@
 # cmake_demo_single_file
-![MSYS2](https://github.com/simdjson/cmake_demo_single_file/workflows/MSYS2-CI/badge.svg)
-![Ubuntu 18.04](https://github.com/simdjson/cmake_demo_single_file/workflows/Ubuntu%2018.04%20CI%20(GCC%207)/badge.svg)
-![Ubuntu 20.04](https://github.com/simdjson/cmake_demo_single_file/workflows/Ubuntu%2020.04%20CI%20(GCC%209)/badge.svg)
-![Visual Studio 2019](https://github.com/simdjson/cmake_demo_single_file/workflows/VS16-CI/badge.svg)
-![Visual Studio 2019 clang](https://github.com/simdjson/cmake_demo_single_file/workflows/VS16-CLANG-CI/badge.svg)
-![Visual Studio 2019 Ninja](https://github.com/simdjson/cmake_demo_single_file/workflows/VS16-Ninja-CI/badge.svg)
 
 
 Really simple CMake demo using FetchContent
